@@ -77,5 +77,3 @@ plt.show()
 #데스트한 정확도와 오차값을 표시
 print('\n Test Accuracy : %.4f' %(model.evaluate(X_test, Y_test)[1]))
 print('\n Test loss : %.4f' %(model.evaluate(X_test, Y_test)[0]))
-
-#########
