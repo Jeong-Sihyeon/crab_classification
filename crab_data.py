@@ -78,4 +78,4 @@ plt.show()
 print('\n Test Accuracy : %.4f' %(model.evaluate(X_test, Y_test)[1]))
 print('\n Test loss : %.4f' %(model.evaluate(X_test, Y_test)[0]))
 
-#######
+#########
